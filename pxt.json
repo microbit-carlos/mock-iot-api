@@ -1,6 +1,6 @@
 {
     "name": "IoT-test",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Test blocks to play around with IoT concepts",
     "license": "MIT",
     "dependencies": {
