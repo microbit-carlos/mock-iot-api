@@ -1,0 +1,19 @@
+{
+    "name": "IoT-test",
+    "version": "0.0.1",
+    "description": "Test blocks to play around with IoT concepts",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "node.ts",
+        "hub.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": false
+}
