@@ -16,7 +16,7 @@ IoTNode.onVariableRequest("temp", () => {
     // Should we have 2 blocks, one for number and one for
     // strings?
     //
-    IoTNode.sendVariable("hello_var", "" + temp)
+    IoTNode.sendVariable("temp", "" + temp)
 })
 IoTNode.onVariableChange("temp", () => {
     temp = parseInt(IoTNode.readVariable("temp"))

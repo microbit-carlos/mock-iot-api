@@ -31,7 +31,7 @@ namespace IoTNode {
     //% blockId=iot_node_sendVariable
     //% block="IoT|send value: %varName|=%any"
     export function sendVariable(varName: string, value: string): void {
-        console.log("Node to Hub -> Send var `" + varName + "` value: " + value);
+        console.log("Node to Hub -> Send var '" + varName + "' value: " + value);
     }
 
     /**
@@ -42,7 +42,7 @@ namespace IoTNode {
     //% block="IoT|read value: %varName"
     export function readVariable(varName: string): string {
         let valueReturned: string = "value_from_" + varName;
-        console.log("Node to Hub -> Read variable '" + varName + "`: " + valueReturned);
+        console.log("Node to Hub -> Read variable '" + varName + "': " + valueReturned);
         return valueReturned;
     }
 
