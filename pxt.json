@@ -1,6 +1,6 @@
 {
     "name": "mock-iot-api",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Test MakeCode blocks to play around with IoT concepts",
     "license": "MIT",
     "dependencies": {
